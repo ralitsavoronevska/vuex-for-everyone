@@ -1,0 +1,27 @@
+Vue CLI
+npm install -g @vue/cli
+
+You can check you have the right version with this command:
+vue --version
+
+To upgrade the global Vue CLI package, you need to run:
+npm update -g @vue/cli
+
+To create a Vue.js 3 project, you need to run:
+vue create name-of-your-project
+
+Successfully created project name-of-your-project.
+�  Get started with the following commands:
+ $ cd name-of-your-project
+ $ npm run serve
+
+How to Add ESLint to an Vue. js
+npm install eslint eslint-plugin-vue --save-dev. Bash.
+npx eslint --init. Bash.
+
+Add "requireConfigFile": false // add this in package.json for Vue3
+into eslint.js for the babel config complaint under "parserOptions".
+
+Then you need to run:
+npm install --save vuex@3.2.0 // If you want a specific version of vuex
+npm install vuex@next --save // If you want the latest version of vuex
