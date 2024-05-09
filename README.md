@@ -1,5 +1,5 @@
 # vuex-for-everyone
-
+Should be the same is https://github.com/vueschool/learn-vuex
 ## Project setup
 ```
 npm install
